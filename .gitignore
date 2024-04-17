@@ -2,3 +2,5 @@
 menu_app/__pycache__/
 .idea
 /.vscode
+mn_app/__pycache__/
+mn_app/migrations/__pycache__/
