@@ -1,3 +1,9 @@
 from django.contrib import admin
+from .models import Menu
 
-# Register your models here.
+
+class MenuApp(admin.ModelAdmin):
+    list_display = ["id", "title", "text"]
+
+
+admin.site.register(Menu, MenuApp)
